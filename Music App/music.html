@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play music Mp3 || Spotify - Favourite Songs</title>
+    <link rel="stylesheet" href="music.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand brand1">
+          <img src="img/music.webp" alt="" />Mp3 Music
+        </li>
+        <div class="text">
+          <li>Home</li>
+          <li>About</li>
+        </div>
+        <li class="brand brand2">
+          Let the music flway<img src="img/listen.gif" alt="" />
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songList">
+        <div class="heading">
+          <h5 class="heading1">"The only truth is music"</h5>
+          <h1 class="heading2">Best Songs Ever</h1>
+        </div>
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="">
+            <span class="songName">Five Hundred Miles</span>
+            <span class="songListPlay"
+                ><span class="timeStamp"
+                  >03:24 <i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="">
+            <span class="songName">Five Hundred Miles</span>
+            <span class="songListPlay"
+                ><span class="timeStamp"
+                  >04:50 <i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="">
+            <span class="songName">Five Hundred Miles</span>
+            <span class="songListPlay"
+                ><span class="timeStamp"
+                  >05:32 <i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="">
+            <span class="songName">Five Hundred Miles</span>
+            <span class="songListPlay"
+                ><span class="timeStamp"
+                  >05:41 <i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="">
+            <span class="songName">Five Hundred Miles</span>
+            <span class="songListPlay"
+            ><span class="timeStamp"
+              >02:25 <i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="">
+            <span class="songName">Five Hundred Miles</span>
+            <span class="songListPlay"
+                ><span class="timeStamp"
+                  >04:14 <i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="">
+            <span class="songName">Five Hundred Miles</span>
+            <span class="songListPlay"
+                ><span class="timeStamp"
+                  >02:52 <i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="">
+            <span class="songName">Five Hundred Miles</span>
+            <span class="songListPlay"
+                ><span class="timeStamp"
+                  >03:19 <i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="">
+            <span class="songName">Five Hundred Miles</span>
+            <span class="songListPlay"
+                ><span class="timeStamp"
+                  >03:41 <i id="8" class="far songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="">
+            <span class="songName">Five Hundred Miles</span>
+            <span class="songListPlay"
+                ><span class="timeStamp"
+                  >03:40 <i id="9" class="far songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="">
+            <span class="songName">Five Hundred Miles</span>
+            <span class="songListPlay"
+                ><span class="timeStamp"
+                  >04:01 <i id="10" class="far songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="">
+            <span class="songName">Five Hundred Miles</span>
+            <span class="songListPlay"
+                ><span class="timeStamp"
+                  >03:59 <i id="11" class="far songItemPlay fa-play-circle"></i></span></span>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100" />
+      <div class="icons">
+        <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+      </div>
+      <div class="songInfo">
+        <img src="img/playing.gif" alt="" width="43px" id="gif"> <span id="masterSongName">Five Hundred Miles</span>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="music.js"></script>
+  </body>
+</html>
